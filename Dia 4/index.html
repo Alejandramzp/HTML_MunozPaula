@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/x-icon" href="./images/f.jpg">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario de registro - Mi web</title>
+</head>
+
+<body>
+    <h2>Formulario de Registro</h2>
+    <form action="" method="get">
+        <!URL donde se envian los datos,metodo HTTP con el que se envian los datos>
+
+            <label for="nombres">Nombres:</label>
+            <input type="text" id="nombres" name="nombres" maxlength="50" placeholder="Ingrese sus nombres" required>
+            <br><br>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" maxlength="50" placeholder="Ingrese sus apellidos" required>
+            <br><br>
+
+            <label for="genero">Sexo:</label>
+            <input type="radio" id="mujer" name="sexo" value="mujer">
+            <label for="mujer">Mujer</label>
+            <input type="radio" id="hombre" name="sexo" value="hombre" required>
+            <label for="hombre">Hombre</label>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" maxlength="50" placeholder="Ingrese su correo electronico" required>
+            <br><br>
+
+            <label for="poblacion">Población:</label>
+            <select id="poblacion" name="poblacion">
+                <option value="Bucaramanga">Bucaramanga</option>
+                <option value="Giron">Girón</option>
+                <option value="Floridablanca">Floridablanca</option>
+                <option value="Piedecuesta">Piedecuesta</option>
+
+            </select>
+            <br><br>
+
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" name="descripcion"></textarea>
+            <br><br>
+
+            <input type="checkbox" id="novedades" name="novedades" checked>
+            <label for="novedades">Deseo recibir información sobre novedades y ofertas</label>
+            <br><br>
+
+            <input type="checkbox" id="condiciones" name="condiciones" required>
+            <label for="condiciones">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+            <br><br>
+
+            <input type="submit" value="Enviar Datos">
+            <input type="reset" value="Restaurar Formulario">
+
+
+
+
+
+
+    </form>
+</body>
+
+</html>
