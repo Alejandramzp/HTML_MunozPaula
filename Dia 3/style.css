@@ -18,6 +18,21 @@ h1{
     color: #8E7AB5;
     font-size: 80px;
 }
+h2{
+    width: 600px;
+    height: 300px;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 70px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #8E7AB5;
+    font-size: 80px;
+   
+}
 .link{
     display: flex;
     align-items: center;
@@ -42,6 +57,6 @@ th{
 td{
     color: #4F4A45;
     border: 1px solid #BBC3A4;
-    padding: 5px;
+    padding: 20px;
     text-align: justify;
 }
