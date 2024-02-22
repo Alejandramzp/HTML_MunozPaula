@@ -1,30 +1,47 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 
 body{
-    height: 100%;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+    
     background-image: url("images/fondo.jpg");
     background-size: cover;
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     text-align: center;
-}
-table {
-    border: none;
-    width: 100%;
-    border-collapse: collapse;
-}
-
-td { 
-    padding: 5px 10px;
-    text-align: center;
-    border: 1px solid #999;
-}
-
-tr:nth-child(1) {
-    background: #dedede;
 }
 h1{
-    font-size: 90px;
+    color: #8E7AB5;
+    font-size: 80px;
 }
-.arriba{
-    background-color: red;
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.table {
+    border: 1px solid #BBC3A4;
+    height: 90%;
+    width: 90%;
+
+}
+
+th{
+    font-size: 25px;
+    background-color: #8E7AB5;
+    color: white;
+    border: 1px solid #BBC3A4;
+    padding: 5px;
+    text-align: center;
+}
+td{
+    color: #4F4A45;
+    border: 1px solid #BBC3A4;
+    padding: 5px;
+    text-align: justify;
 }
