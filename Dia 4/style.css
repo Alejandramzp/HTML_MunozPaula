@@ -1,0 +1,93 @@
+body{
+    font-family: montserrat;
+    font-size: 20px; 
+    color: #3e3c3c; 
+    background: linear-gradient(#BBA0CA,#D1C8E1,#C3C3E6);
+    height: 100%; 
+    
+}
+
+.formulario{
+    width: 460px;
+    height: auto;
+    margin: 5% auto;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background: white;
+    border-radius: 10px;
+}
+
+h1{
+  font-size: 40px;  
+  text-align: center; 
+  padding-bottom: 20px; 
+  color: #B370B0;
+}
+
+label{
+    display: block; 
+    float: center;  
+}
+  
+.formulario .caja{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #B370B0; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.formulario .circulo{
+    background-color: #fbfbfb; 
+    width: 20px; 
+    height: 50px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #B370B0; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    background-color: #fbfbfb; 
+    width: 415px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #B370B0; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+.formulario .boton{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #ab4493; 
+    border-color: #ab4493; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+}
+
+div {
+    padding-left: 15px; 
+    display: inline-block;
+    vertical-align: top; 
+    margin-right: 90px; 
+}
