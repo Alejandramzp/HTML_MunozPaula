@@ -60,6 +60,15 @@ label{
     margin-bottom: 20px;
     display: flex;
 }
+
+.g input[type="radio"] {
+    display: block;
+    margin-bottom: 10px;
+    
+}
+.espacio{
+    width: 50px;
+}
 .g{
     display: flex;
     align-items: center;
