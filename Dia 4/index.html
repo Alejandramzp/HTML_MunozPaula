@@ -21,14 +21,14 @@
             </p>
             <div class="g">
                 <label for="genero" ><h4>Sexo:</h4></label>
-                <div>
-                   <input type="radio" class="circulo" id="mujer" name="sexo" value="mujer">
-                   <label for="mujer"><h4>Mujer</h4></label>
-                </div>
-                <div> 
-                   <input type="radio" class="circulo" id="hombre" name="sexo" value="hombre" required>
-                   <label for="hombre"><h4>Hombre</h4></label>
-                </div>
+                
+                <input type="radio" class="circulo" id="mujer" name="sexo" value="mujer">
+                <label for="mujer"><h4>Mujer</h4></label>
+                
+                
+                <input type="radio" class="circulo" id="hombre" name="sexo" value="hombre" required>
+                <label for="hombre"><h4>Hombre</h4></label>
+                
             </div>
             <p>
                 <label for="email"><h4>Email:</h4></label>
@@ -47,14 +47,14 @@
                 <label for="descripcion"><h4>Descripción:</h4></label>
                 <textarea id="descripcion" name="descripcion" placeholder="Ingresa alguna descripción..."></textarea>
             </p>
-            <p>
-                <input type="checkbox" class="circulo" id="novedades" name="novedades" checked>
+            <div class="c">
+                <input type="checkbox" id="novedades" name="novedades" checked>
                 <label for="novedades"> <h5>Deseo recibir información sobre novedades y ofertas</h5></label>
-            </p>
-            <p>
-                <input type="checkbox" class="circulo" id="condiciones" name="condiciones" required>
+            </div>
+            <div class="c">
+                <input type="checkbox" id="condiciones" name="condiciones" required>
                 <label for="condiciones"><h5>Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</h5></label>
-            </p>
+            </div>
             <p>
             <input type="submit" class="boton" value="Enviar Datos">
             <input type="reset" class="boton" value="Restaurar Formulario">
