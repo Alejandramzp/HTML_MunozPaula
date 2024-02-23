@@ -45,6 +45,7 @@ label{
   margin-top: 10px;  
   padding-left: 10px;
   margin-bottom: 20px;
+  font-size: 17px;
 }
 .formulario .circulo{
     background-color: #fbfbfb; 
@@ -68,6 +69,7 @@ label{
 }
 .espacio{
     width: 50px;
+    display: block;
 }
 .g{
     display: flex;
