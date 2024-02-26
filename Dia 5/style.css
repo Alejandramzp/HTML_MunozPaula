@@ -1,0 +1,312 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: transparent url("media/Path1.png") no-repeat;
+    width: 1918px;
+    height: 4149px;
+}
+.principal{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    background: transparent;
+    background-repeat: no-repeat;
+    opacity: 1;
+    position: relative;
+}
+.lupita{
+    position: absolute;
+    top: 37px;
+    left: 63px;
+    width: 36px;
+    height: 36px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.login{
+    position: absolute;
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.loginL{
+    position: absolute;
+    top: 48px;
+    left: 1773px;
+    width: 50px;
+    height: 20px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+}
+.logo{
+    position: absolute;
+    top: 227px;
+    left: 682px;
+    width: 556px;
+    height: 313px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+}
+.favorite{
+    position: absolute;
+    top: 517px;
+    left: 389px;
+    width: 1151px;
+    height: 60px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat; 
+}   
+.now{
+    position: absolute;
+    top: 608px;
+    left: 380px;
+    width: 1160px;
+    height: 102px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat; 
+}
+.singUp{
+    position: absolute;
+    top: 755px;
+    left: 730px;
+    width: 458px;
+    height: 104px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+    border-radius: 52px; 
+    cursor: pointer;
+}
+.singUpL{
+    position: absolute;
+    top: 787px;
+    left: 780px;
+    width: 360px;
+    height: 40px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+}
+/*----------------------------------------------- */
+.live{
+    position: absolute;
+    top: 1106px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+/*------------------------------------------------ */
+.movie{
+    position: absolute;
+    top: 1717px;
+    left: 64px;
+    width: 1792px;
+    height: 724px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+    border-radius: 108px;
+    cursor: pointer;
+}
+.dontlike{
+    position: absolute;
+    top: 1773px;
+    left: 135px;
+    width: 1664px;
+    height: 60px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+}
+.youllfind{
+    position: absolute;
+    top: 2286px;
+    left: 207px;
+    width: 1492px;
+    height: 110px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+}
+.movies{
+    position: absolute;
+    display: flex;
+    top: 1896px;
+    left: 477px;
+    width: 181px;
+    height: 309px;
+    border: 1px solid #707070;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+    gap: 12px;
+    cursor: pointer;
+}
+/*------------------------------------------------ */
+.cancel{
+    position: absolute;
+    top: 2467px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+    border-radius: 108px;
+    cursor: pointer;
+}
+.cancelanytime{
+    position: absolute;
+    top: 2546px;
+    left: 560px;
+    width: 800px;
+    height: 60px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+}
+.iconcancel{
+    position: absolute;
+    top: 2650px;
+    left: 876px;
+    width: 169px;
+    height: 169px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.ifyoudont{
+    position: absolute;
+    top: 2881px;
+    left: 269px;
+    width: 1382px;
+    height: 88px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+}
+/*------------------------------------------------ */
+.compatible{
+    position: absolute;
+    top: 3127px;
+    left: 418px;
+    width: 1118px;
+    height: 125px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+}
+.range{
+    position: absolute;
+    top: 3296px;
+    left: 181px;
+    width: 1544px;
+    height: 99px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+}
+/*------------------------------------------------ */
+.flecha1{
+    position: absolute;
+    top: 3689px;
+    left: 305px;
+    width: 19px;
+    height: 27px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.image1{
+    position: absolute;
+    top: 3440px;
+    left: 685px;
+    width: 584px;
+    height: 534px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.image2{
+    position: absolute;
+    top: 3606px;
+    left: 386px;
+    width: 256px;
+    height: 219px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.image3{
+    position: absolute;
+    top: 3587px;
+    left: 1261px;
+    width: 271px;
+    height: 238px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.flecha2{
+    position: absolute;
+    top: 3702px;
+    left: 1575px;
+    width: 18px;
+    height: 26px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+/*------------------------------------------------ */
+.cace{
+    position: absolute;
+    top: 3954px;
+    left: 826px;
+    width: 430px;
+    height: 195px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+}
+.poweredby{
+    position: absolute;
+    top: 3979px;
+    left: 843px;
+    width: 92px;
+    height: 20px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+}
+.group5{
+    position: absolute;
+    top: 4088px;
+    left: 543px;
+    width: 831px;
+    height: 25px;
+    opacity: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+}
