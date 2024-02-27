@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    width: 1920px;
+    height: 1080px;
+}
+.rectangulo{
+    position: absolute;
+    background-color: #212020;
+    left: 1810px;
+    width: 110px;
+    height: 1080px;
+    border-radius: 0px 8px 8px 0px;
+    opacity: 1;
+}
+.menu{
+    width: 1810px;
+}
+.logo{
+    width: 196px;
+    height: 44px;
+}
+.lupa{
+    width: 27px;
+    height: 27px;
+}
+.carrito{
+    width: 33px;
+    height: 32px;
+}
