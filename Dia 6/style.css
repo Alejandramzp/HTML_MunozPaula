@@ -13,17 +13,6 @@ body{
     width: 1920px;
     height: 1080px;
 }
-/*-------------------------------------------------------*/
-.rectangulo{
-    position: absolute;
-    background-color: #212020;
-    top: 0;
-    left: 1810px;
-    width: 110px;
-    height: 1080px;
-    border-radius: 0px 8px 8px 0px;
-    opacity: 1;
-}
 /*------------------------Menu-------------------------------*/
 .menu{
     position: absolute;
@@ -81,4 +70,161 @@ body{
     background-repeat: no-repeat;
     opacity: 1;
 }
-/*-------------------------------------------------------*/
+/*----------------------Tarjeta-----------------------------*/
+.linea{
+    position: absolute;
+    width: 146px;
+    top: 106px;
+    left: 1260px;
+    background: transparent;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+.tarjeta{
+    position: absolute;
+    top: 250px;
+    left: 450px;
+    width: 884px;
+    height: 497px;
+    background: transparent;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+/*-------------------------Tarjeta Saldo------------------------------*/
+.tarjetametro{
+    position: absolute;
+    top: 926px;
+    width: 1810px;
+    height: 114px;
+}
+.tarjetasaldo{
+    position: absolute;
+    bottom: 20px;
+    left: 58px;
+    font-family:'OpenSans-Semibold';
+    font-size: 40px;
+    color: #000000;
+    width: 716px;
+    height: 55px;
+    opacity: 1;
+}
+.cop{
+    position: absolute;
+    top: 35px;
+    left: 57px;
+    font-family:'OpenSans-Semibold';
+    font-size: 27px;
+    color: #000000;
+    width: 140px;
+    height: 37px;
+    opacity: 1;
+}
+.cuadro{
+    position: absolute;
+    left: 1550px;
+    width: 160px;
+    height: 114px;
+    background-color: #D5FF43;
+    border-radius: 8px;
+    opacity: 1;
+}
+.logocuadro{
+    position: absolute;
+    top: 29px;
+    left: 15px;
+    width: 129px;
+    height: 29px;
+    background: transparent;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+.comprar{
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    font-family:'OpenSans-Semibold';
+    font-size: 27px;
+    color: #000000;
+    width: 111px;
+    height: 36px;
+    opacity: 1;
+}
+/*--------------------Rectangulo-----------------------------------*/
+.rectangulo{
+    position: absolute;
+    background-color: #212020;
+    top: 0;
+    left: 1810px;
+    width: 110px;
+    height: 1080px;
+    border-radius: 0px 8px 8px 0px;
+    opacity: 1;
+}
+.up{
+    position: absolute;
+    top: 50px;
+    left: 43px;
+    width: 24px;
+    height: 14px;
+    background: transparent;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+.Cantidad{
+    position: absolute;
+    top: 220px;
+    left: 14px;
+    font-family:'OpenSans-Regular';
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 84px;
+    height: 27px;
+    opacity: 1;
+}
+.numeros{
+    position: absolute;
+    top: 460px;
+    left: 40px;
+    width: 40px;
+    height: 200px;
+    font-family:'OpenSans-Regular';
+    font-size: 25px;
+    align-items: center;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.c1{
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    color: #5b5252;
+}
+.c1:hover{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.c2{
+    position: absolute;
+    top: 70px;
+    left: 4px;
+}
+.c3{
+    position: absolute;
+    top: 140px;
+    left: 4px;
+    color: #5b5252;
+}
+.c3:hover{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.down{
+    position: absolute;
+    bottom: 50px;
+    left: 43px;
+    width: 24px;
+    height: 14px;
+    background: transparent;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
