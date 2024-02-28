@@ -195,7 +195,7 @@ body{
 }
 .c1{
     position: absolute;
-    top: 0px;
+    bottom: 140px;
     left: 4px;
     color: #5b5252;
 }
@@ -205,7 +205,7 @@ body{
 }
 .c2{
     position: absolute;
-    top: 70px;
+    top: 60px;
     left: 4px;
 }
 .c3{
@@ -227,4 +227,118 @@ body{
     background: transparent;
     background-repeat: no-repeat;
     opacity: 1;
+}
+/*-----------------------Pagina 2---------------------------*/
+.linea2{
+    position: absolute;
+    width: 110px;
+    top: 106px;
+    left: 1496px;
+    background: transparent;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+.tarjeta2{
+    position: absolute;
+    top: 250px;
+    left: 600px;
+    width: 576px;
+    height: 324px;
+    background: transparent;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+.tarjetapepito{
+    position: absolute;
+    top: 580px;
+    left:555px ;
+    width: 705px;
+    height: 55px;
+    font-family:'OpenSans-Semibold';
+    font-size: 40px;
+    color: #000000;
+    opacity: 1;
+}
+
+.saldoactual{
+    position: absolute;
+    top: 680px;
+    left:720px ;
+    width: 329px;
+    height: 37px;
+    font-family:'OpenSans-Semibold';
+    font-size: 27px;
+    color: #000000;
+    opacity: 1;
+}
+.saldoescogido{
+    position: absolute;
+    top: 760px;
+    left:782px ;
+    width: 200px;
+    height: 37px;
+    font-family:'OpenSans-Semibold';
+    font-size: 27px;
+    color: #000000;
+    opacity: 1;
+}
+.saldo{
+    position: absolute;
+    top: 860px;
+    left: 750px ;
+    width: 258px;
+    height: 58px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+    font-family:'OpenSans-Semibold';
+    font-size: 27px;
+    color: #000000;
+    text-align: center;
+}
+/*-----------------------rectangulo2---------------------------*/
+.Valor{
+    position: absolute;
+    top: 220px;
+    left: 35px;
+    font-family:'OpenSans-Regular';
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 48px;
+    height: 28px;
+    opacity: 1;
+}
+.Precios{
+    position: absolute;
+    top: 460px;
+    left: 26px;
+    width: 58px;
+    height: 200px;
+    font-family:'OpenSans-Regular';
+    font-size: 22px;
+    align-items: center;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.p1{
+    position: absolute;
+    bottom: 140px;
+    color: #5b5252;
+}
+.p1:hover{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.p2{
+    position: absolute;
+    top: 64px;
+}
+.p3{
+    position: absolute;
+    top: 140px;
+    color: #5b5252;
+}
+.p3:hover{
+    color: #FFFFFF;
+    cursor: pointer;
 }
