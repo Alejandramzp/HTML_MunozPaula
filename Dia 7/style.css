@@ -17,7 +17,8 @@ body{
     width: 1920px;
     top: 15px;
     left: 0px;
-    height: 90px;
+    height: 80px;
+    
 }
 a{
     text-decoration: none;
@@ -28,8 +29,8 @@ a{
 .foods{
     position: absolute;
     color: #ff702a;
-    font-size: 50px;
-    bottom: 855px;
+    font-size: 60px;
+    top: 1px;
     left: 110px;
 }
 .Home{
@@ -201,11 +202,6 @@ a{
     background-color: #ffefe8;
     border: 5px solid #000000;
 }
-.food2{
-    position: absolute;
-    top: 30px;
-    left: 100px;
-}
 .beef{
     position: absolute;
     color: #000000;
@@ -221,11 +217,6 @@ a{
     background-color: #ffefe8;
     border: 5px solid #000000;
 }
-.food3{
-    position: absolute;
-    top: 30px;
-    left: 100px;
-}
 .fry{
     position: absolute;
     color: #000000;
@@ -239,5 +230,56 @@ a{
     height: 1080px;
     border: 1px solid palevioletred;
 }
+.services{}
+.provide{}
+.sm1{
+    position: absolute;
+    bottom: 110px;
+    left: 170px;
+    width: 500px;
+    height: 600px;
+    border: 5px solid #06c93a;
+}
+.sme1{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    width: 300px;
+    height: 300px;
+}
+.order{
+    position: absolute;
+    color: #ff702a;
+    font-size: 50px;
+    top: 280px;
+    left: 180px;
+}
+.shi{}
+.dellvered{}
+.long{
+    position: absolute;
+    color: #ffffff;
+    width: 600px;
+    top: 380px;
+    left: 0px;
+    text-align: center;
+}
+.sm2{
+    position: absolute;
+    bottom: 110px;
+    left: 710px;
+    width: 500px;
+    height: 600px;
+    border: 5px solid #06c93a;
+}
+.sm3{
+    position: absolute;
+    bottom: 110px;
+    left: 1250px;
+    width: 500px;
+    height: 600px;
+    border: 5px solid #06c93a;
+}
+
 
 /*-------------------------division 5-------------------------------------------*/
