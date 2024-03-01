@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1e1d2b;
+    width: 1920px;
+    font-family: "Poppins", sans-serif;
+}
+/*--------------------------Principal--------------------------------*/
+.principal{
+    box-sizing: border-box;
+    height: 1080px;
+}
+.menu{
+    position: absolute;
+    width: 1920px;
+    top: 15px;
+    left: 0px;
+    height: 90px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 35px;
+    top: 12px;
+}
+.foods{
+    position: absolute;
+    color: #ff702a;
+    font-size: 50px;
+    bottom: 855px;
+    left: 110px;
+}
+.Home{
+    position: absolute;
+    left: 1100px;
+   
+}
+.About{
+    position: absolute;
+    left: 1240px;
+}
+.Menu{
+    position: absolute;
+    left: 1385px;
+}
+.Service{
+    position: absolute;
+    left:  1520px;
+}
+.Contact{
+    position: absolute;
+    left: 1680px;
+    
+}
+.Full{
+    position: absolute;
+    color: #ff702a;
+    font-size: 130px;
+    left: 150px;
+    top: 190px;
+}
+.foodsthe{
+    position: absolute;
+    color: #ffffff;
+    font-size: 40px;
+    top:480px;
+    left:160px
+}
+.homa{
+    position: absolute;
+    left: 1000px;
+    top: 220px;
+    width: 750px;
+    height: 750px;
+    background: transparent;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+.todaymenu{
+    position: absolute;
+    color: #ffffff;
+    font-size: 25px;
+    background-color: #ff702a;
+    top: 670px;
+    left: 160px;
+    width: 210px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+/*-------------------------division 2-------------------------------------------*/
+.s2{
+    position: relative;
+    box-sizing: border-box;
+    height: 1080px;
+}
+.aboutus{
+    position: absolute;
+    color: #ff702a;
+    font-size: 30px;
+    left: 1100px;
+    top: 300px;
+}
+.we{
+    position: absolute;
+    color: #ffffff;
+    font-size: 60px;
+    top:320px;
+    left:1100px
+}
+.Itis{
+    position: absolute;
+    color: #ffffff;
+    font-size: 30px;
+    top:540px;
+    left:1100px
+}
+.aboutmedia{position: absolute;
+    left: 200px;
+    top: 190px;
+    width: 750px;
+    height: 750px;
+    background: transparent;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+.learn{
+    position: absolute;
+    color: #ffffff;
+    font-size: 25px;
+    background-color: #ff7d3c;
+    top: 730px;
+    left: 1100px;
+    width: 170px;
+    height: 50px;
+    padding: 2px;
+    line-height: 50px;
+    text-align: center;
+}
+/*-------------------------division 3-------------------------------------------*/
+.s3{
+    position: relative;
+    box-sizing: border-box;
+    height: 1080px;
+    border: 1px solid palevioletred;
+}
+.foodmenu{
+    position: absolute;
+    color: #ff702a;
+    font-size: 30px;
+    left: 870px;
+    top: 80px;
+}
+.fresh{
+    position: absolute;
+    color: #ffffff;
+    font-size: 60px;
+    top:110px;
+    left:580px
+}
+.f1{
+    position: absolute;
+    bottom: 110px;
+    left: 170px;
+    width: 500px;
+    height: 600px;
+    background-color: #ffefe8;
+    border: 5px solid #000000;
+}
+.food1{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+.chicken{
+    position: absolute;
+    color: #000000;
+    top: 320px;
+    left: 140px;
+}
+.tasty{
+    position: absolute;
+    color: #000000;
+    top: 380px;
+    left: 160px;
+}
+.precio{
+    position: absolute;
+    color: #ff702a;
+    top: 430px;
+    left: 210px;
+}
+.f2{
+    position: absolute;
+    bottom: 110px;
+    left: 710px;
+    width: 500px;
+    height: 600px;
+    background-color: #ffefe8;
+    border: 5px solid #000000;
+}
+.food2{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+.beef{
+    position: absolute;
+    color: #000000;
+    top: 320px;
+    left: 90px;
+}
+.f3{
+    position: absolute;
+    bottom: 110px;
+    left: 1250px;
+    width: 500px;
+    height: 600px;
+    background-color: #ffefe8;
+    border: 5px solid #000000;
+}
+.food3{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+.fry{
+    position: absolute;
+    color: #000000;
+    top: 320px;
+    left: 120px;
+}
+/*-------------------------division 4-------------------------------------------*/
+.s4{
+    position: relative;
+    box-sizing: border-box;
+    height: 1080px;
+    border: 1px solid palevioletred;
+}
+
+/*-------------------------division 5-------------------------------------------*/
