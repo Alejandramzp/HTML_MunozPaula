@@ -4,7 +4,7 @@ body{
 .barra{
     background-color: rgb(205, 151, 255);
     font-size: 2vi;
-    border: 2px double rgb(73, 10, 136);
+    border: 1vi double rgb(73, 10, 136);
     height: 3vi;
     display: flex;
     align-items: center;
@@ -16,6 +16,7 @@ a{
 }
 /*-------------------2---------------------*/
 h1{
+    font-size: 4vi;
     color: rgb(73, 10, 136);
     text-align: center;
 }
@@ -28,8 +29,8 @@ h1{
 .art{
     color: rgb(73, 10, 136);
     background-color: rgb(183, 126, 230);
-    border: 2px double rgb(73, 10, 136);
-    border-radius: 10px;
+    border: 2vi double rgb(73, 10, 136);
+    border-radius: 5vi;
     text-align: center;
     justify-content: center;
 }
