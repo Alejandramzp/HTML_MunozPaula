@@ -29,8 +29,8 @@ a{
     position: absolute;
     color: #ff702a;
     font-size: 3.8rem;
-    top: 1px;
-    left: 110px;
+    top: 0.06rem;
+    left: 6.9rem;
 }
 .Home{
     position: absolute;
@@ -81,11 +81,11 @@ a{
     color: #ffffff;
     font-size: 1.6rem;
     background-color: #ff702a;
-    top: 670px;
-    left: 160px;
-    width: 210px;
-    height: 60px;
-    line-height: 60px;
+    top: 42rem;
+    left: 10rem;
+    width: 13rem;
+    height: 3.8rem;
+    line-height: 3.8rem;
     text-align: center;
 }
 /*-------------------------division 2-------------------------------------------*/
@@ -133,8 +133,8 @@ a{
     left: 68.75rem;
     width: 11rem;
     height: 3.2rem;
-    padding: 2px;
-    line-height: 50px;
+    padding: 0.2rem;
+    line-height: 3.2rem;
     text-align: center;
 }
 /*-------------------------division 3-------------------------------------------*/
