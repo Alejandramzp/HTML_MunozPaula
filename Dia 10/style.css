@@ -1,16 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 1vi;
     background-color: rgb(236, 236, 249);
 }
-.grid-1{
+
+.grid-1 {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
-    grid-template-areas: 
-    "s1 s2"
-    "s3 s2"
-    "s4 s4";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "s1 s2"
+        "s3 s2"
+        "s4 s4";
     gap: 1.5vi;
     padding: 2vi;
     border-radius: 1vi;
@@ -18,70 +19,81 @@
     text-align: center;
     width: auto;
 }
-.s1{
+
+.s1 {
     background-color: aliceblue;
     grid-area: s1;
     border-radius: 1vi;
     padding: 0;
 }
-.s2{
+
+.s2 {
     background-color: aliceblue;
     grid-area: s2;
     border-radius: 1vi;
     padding: 0;
 }
-.s3{
+
+.s3 {
     background-color: aliceblue;
     grid-area: s3;
     border-radius: 1vi;
     padding: 0;
 }
-.s4{
+
+.s4 {
     background-color: aliceblue;
     grid-area: s4;
     border-radius: 1vi;
     padding: 0;
+
 }
-.grid-1 img{
+
+.grid-1 img {
     border-radius: 1vi;
     padding: 0;
     width: 100%;
     height: 100%;
 }
-.grid-2{
+
+.grid-2 {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
-    grid-template-areas: 
-    "d1 d2"
-    "d3 d2";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "d1 d2"
+        "d3 d2";
     margin-top: 1.2vi;
     gap: 1.5vi;
     padding: 2vi;
     border-radius: 1vi;
     background-color: black;
     text-align: center;
-   
+
 }
-.d1{
+
+.d1 {
     background-color: aliceblue;
     grid-area: d1;
     border-radius: 1vi;
     padding: 0;
 }
-.d2{
+
+.d2 {
     background-color: aliceblue;
     grid-area: d2;
     border-radius: 1vi;
     padding: 0;
 }
-.d3{
+
+.d3 {
     background-color: aliceblue;
     grid-area: d3;
     border-radius: 1vi;
     padding: 0;
 }
-.grid-2 img{
+
+.grid-2 img {
     border-radius: 1vi;
     padding: 0;
     width: 100%;
