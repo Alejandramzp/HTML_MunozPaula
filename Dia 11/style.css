@@ -5,28 +5,152 @@ body{
     box-sizing: border-box;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:fixed;
 }   
 .b{
     position: absolute;
-    bottom: 4vi;
+    bottom: 3vi;
     right: 0;
     width:22vi;
     height: 32vi;
     
 }
+/*--------------Conteo--------------------*/
+.uno, .dos, .tres, .action {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation-duration: 1s;
+}
+.uno{
+    animation-name: uno;
+    animation-delay: 2s;
+}
+.dos{
+    animation-name: dos;
+    animation-delay: 1s;
+}
+.tres{
+    animation-name: tres;
+    animation-delay: 0s;
+}
+.action{
+    animation-name: action;
+    animation-delay: 3s;
+}
+
+@keyframes uno {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes dos {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes tres {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes action {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+/*---------------Nube-------------------*/
+
+.nube{
+    position: absolute;
+    bottom: 30vi;
+    left: -100%;
+    opacity: 1;
+    width: 21vi;
+    animation-name: nube;
+    animation-delay: 4s;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    z-index: 2;
+}
+.lluvia{
+    position: absolute;
+    width: 18vi;
+    top: 5%;
+    left: 41%;
+    opacity: 0;
+    animation-name: lluvia;
+    animation-delay: 6.8s;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes nube {
+    0%{
+        left: -10%;
+    }
+    20%{
+        opacity: 1;
+    }
+    40%{
+        left: 40%;
+    }
+    60%{
+        left: 40%;
+    }
+    80%{
+        opacity: 1;
+    }
+    90%{ opacity: 1;}
+    100%{
+        opacity: 0;
+        left: 79%;
+    }
+}
+@keyframes lluvia {
+    0%{opacity: 0;}
+    25%{opacity: 1;
+    transform: translateY(10%)}
+    50%{opacity: 1;
+    transform: translateY(50%);}
+    95%{opacity: 1;}
+    100%{opacity: 0;
+    transform: translateY(120%);}
+}
+/*---------------Sol-------------------*/
 .sol{
     position: absolute;
     width: 12vi;
     left: 18vi;
     animation-name: sol;
-    opacity: 5;
+    opacity: 1;
     animation-duration:5s;
-    animation-delay: 0s;
+    animation-delay: 5s;
     animation-timing-function: linear;
-    animation-fill-mode: backwards;
 }
 @keyframes sol {
-    0%{opacity: 10%;}
-    100%{opacity: 100%;}
+    0%{opacity: 0%;}
+    100%{opacity: 100%;
+        transform: rotate(1turn);}
+}
+/*---------------flor-------------------*/
+.girasol{
+    position: absolute;
+    width: 15vi;
+    top: 43%;
+    left: 41%;
+    opacity: 0;
+    animation-name: girasol;
+    animation-delay: 10s;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+@keyframes girasol {
+    0%{opacity: 0;
+    transform: translateY(100%)}
+    25%{opacity: 1;
+    transform: translateY(50%)}
+    50%{opacity: 1;
+    transform: translateY(10%);}
+    80%{opacity: 1;}
+    100%{opacity: 1;
+    transform: translateY(10%);}
 }
